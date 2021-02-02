@@ -1,14 +1,18 @@
 import React from "react";
 import { Link } from "gatsby";
 import Header from "../components/header";
+import Layout from "../components/layout";
 
 const Contact = () => {
   return (
-    <div style={{ color: `teal` }}>
+    <Layout>
+       {/* <div style={{ color: `teal` }}> */}
       <Link to="/">Home</Link>
       <Header headerText="Contact" />
-      <p>Send us a message!</p>
-    </div>
+      <p style={{ color: `teal` }} >Send us a message!</p>
+     {/* </div> */}
+    </Layout>
+    
   )
 }
 
